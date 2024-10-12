@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.box-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(148, 64, 218);
+  box-shadow: 0px 8px 12px 0px;
+  transition: transform 0.6s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  margin-left: -160px;
+}
+
+.box:hover {
+  cursor: pointer;
+  transform: translateX(160px);
+}
+
+i {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.text {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.box:hover .text {
+  display: flex;
+}
