@@ -17,25 +17,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
-.main-circle {
+#main-circle {
   border: 15px solid white;
   border-top: 15px solid red;
+  z-index: 1;
 }
 
-.sub-circle {
+#sub-circle {
   background-color: grey;
   border-radius: 50%;
   position: absolute;
-}
-
-p {
   color: white;
   font-size: 1.5rem;
   font-weight: 900;
 }
 
-.circle:hover {
-  cursor: pointer;
+#main-circle:hover {
+  animation: rotation 1.5s linear 1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
