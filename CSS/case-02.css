@@ -35,7 +35,7 @@ body {
   font-weight: 900;
 }
 
-#main-circle:hover {
+.circle:hover {
   animation: rotation 1.5s linear 1;
 }
 
