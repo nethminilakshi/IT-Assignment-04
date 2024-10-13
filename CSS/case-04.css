@@ -2,5 +2,40 @@ body {
   margin: 0;
 }
 
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .circle {
+  background-color: white;
+  border-radius: 50%;
+  animation: waterDrop 8s linear infinite;
+}
+
+@keyframes waterDrop {
+  0% {
+    height: 0px;
+    width: 0px;
+  }
+  25% {
+    height: 30px;
+    width: 30px;
+    border: 1.5px solid rgb(146, 41, 76);
+  }
+  50% {
+    height: 80px;
+    width: 80px;
+  }
+  75% {
+    height: 150px;
+    width: 150px;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+  }
 }
