@@ -34,7 +34,7 @@ body {
   75% {
     top: calc(100% - 150px);
     left: 0;
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
     background-color: #cf2a77;
   }
   100% {
