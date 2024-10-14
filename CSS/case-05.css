@@ -11,7 +11,8 @@ body {
   position: absolute;
   transform: translateX(-300vw);
 
-  animation: slide-moving 18s ease infinite alternate;
+  animation: slide-moving 15s ease infinite alternate;
+  animation-delay: 5s;
 }
 
 .slide {
