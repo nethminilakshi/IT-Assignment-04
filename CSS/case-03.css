@@ -10,7 +10,7 @@ body {
   position: absolute;
   border-radius: 15px;
   background-color: rgb(252, 63, 63);
-  animation: rotation 8s ease infinite alternate;
+  animation: rotation 6s ease infinite alternate;
 }
 @keyframes rotation {
   0% {
