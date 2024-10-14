@@ -6,7 +6,7 @@ body {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  animation: slides 10s linear infinite;
+  animation: slides 15s linear infinite;
   transform: translateX(-300vw);
 }
 
@@ -39,6 +39,6 @@ body {
   }
   95%,
   100% {
-    transform: translateX(100vw);
+    transform: translateX(-300vw);
   }
 }
