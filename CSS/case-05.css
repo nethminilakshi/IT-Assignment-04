@@ -11,7 +11,7 @@ body {
   position: absolute;
   transform: translateX(-300vw);
 
-  animation: slide-moving 10s ease infinite alternate;
+  animation: slide-moving 18s ease infinite alternate;
 }
 
 .slide {
@@ -54,38 +54,4 @@ body {
   100% {
     transform: translateX(0);
   }
-
-  /* 0% {
-    left: 0;
-  }
-  10% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  30% {
-    left: 100%;
-  }
-  40% {
-    left: 100%;
-  }
-  50% {
-    left: 100%;
-  }
-  60% {
-    left: 200%;
-  }
-  70% {
-    left: 200%;
-  }
-  80% {
-    left: 200%;
-  }
-  90% {
-    left: 300%;
-  }
-  100% {
-    left: 300%;
-  } */
 }
